@@ -18,7 +18,7 @@ const Back = () => {
 
   
   return (
-    <div className=" w-full md:h-[130vh] h-[240vh] flex top-0 bottom-0">
+    <div className=" w-full md:h-[130vh] h-[240vh] flex top-0 bottom-0 overflow-hidden">
         <div className="w-full md:h-[120vh] h-[220vh] absolute bg-gradient-to-r from-blue-500/80 to-blue-400/50 max-w-[1200px] mx-auto left-0 right-0 rounded-2xl mt-[50px]">
           
             <div className="grid grid-cols-6 py-12 mx-auto">
