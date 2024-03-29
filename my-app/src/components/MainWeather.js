@@ -58,7 +58,7 @@ const MainWeather = ({ data }) => {
                 <h1 className="text-white">{timeNow()}</h1>
                 <div className="flex">
                     <img className="ml-[-2rem] scale-75 w-[256px] h-[256px] contrast-150" src={allWeather[data?.weather?.[0]?.main]} />
-                    <h1 className="flex items-center justify-center w-full my-8 mr-4 -ml-8 text-3xl font-bold text-white md:-ml-8 md:text-5xl lg:text-6xl whitespace-nowrap">{(parseFloat(JSON.stringify(data?.main?.temp))+KELVINT_TO_CELSIUS).toFixed(1)} <span className="mb-12 text-2xl md:-ml-4">°C</span></h1>
+                    <h1 className="flex items-center justify-center w-full my-8 mr-4 -ml-8 text-3xl font-bold text-white md:-ml-8 md:text-4xl lg:text-5xl whitespace-nowrap">{(parseFloat(JSON.stringify(data?.main?.temp))+KELVINT_TO_CELSIUS).toFixed(1)} <span className="mb-12 text-2xl md:text-lg md:-ml-4">°C</span></h1>
                 </div>
                 <div className="grid grid-cols-4 -mt-8" >
                     <div className="items-center justify-center block py-4">

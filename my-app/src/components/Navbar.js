@@ -11,6 +11,7 @@ const Navbar = ({ onDataFromNavbar }) => {
     const [city,setCity] = useState('');
     const [fetchURL,setFetchUrl] = useState('');
     const [error,setError] = useState(false);
+
     
     const handleClick = async (e) => {
         e.preventDefault();
