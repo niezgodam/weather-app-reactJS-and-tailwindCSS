@@ -18,11 +18,16 @@ const Back = () => {
 
   
   return (
+<<<<<<< HEAD
     <div
       className="relative"
       >
       
         <div className="w-full h-fit absolute bg-gradient-to-r from-blue-500/80 to-blue-400/50 max-w-[1200px] mx-auto left-0 right-0 rounded-2xl mt-[50px] p-12">
+=======
+    <div className=" w-full md:h-[130vh] h-[240vh] flex top-0 bottom-0 overflow-hidden">
+        <div className="w-full md:h-[120vh] h-[220vh] absolute bg-gradient-to-r from-blue-500/80 to-blue-400/50 max-w-[1200px] mx-auto left-0 right-0 rounded-2xl mt-[50px]">
+>>>>>>> ae3c4c6698c319fea11b45f14f5a8aea559917bb
           
             <div className="grid grid-cols-6 py-12 mx-auto">
               <div className="col-span-4 col-start-2 md:col-start-2 md:col-span-2">
