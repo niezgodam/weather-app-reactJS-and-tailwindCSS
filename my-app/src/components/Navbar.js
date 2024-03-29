@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Background from './MainWeather';
 import { BsSearch } from 'react-icons/bs';
 
 

@@ -11,7 +11,6 @@ const MainWeather = ({ data }) => {
 
     
     const KELVINT_TO_CELSIUS = -272.15;
-    const [adjustedTime, setAdjustedTime] = useState(() => new Date());
     const [time, setTime] = useState(new Date());
     const [newTime, setNewTime] = useState(new Date());
     const [isLoading, setIsLoading] = useState(false);
