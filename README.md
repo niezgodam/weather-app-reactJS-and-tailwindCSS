@@ -1,5 +1,5 @@
 ### By clicking the link below you can see what the project looks like
-https://niezgodam.github.io/weather-app-reactJS-and-tailwindCss/
+https://niezgodam.github.io/weather-app-reactJS-and-tailwindcss/
 
 # The weather app integrates data from two APIs to retrieve weather information and to allow the use of a map based on selected geographical coordinates. 
 
